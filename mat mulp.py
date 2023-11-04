@@ -12,8 +12,8 @@ def mat_ent():
 mat_ent()
 print(" order of first matrix is: ", nr1, "X", nc1)
 print("order of second matrix is: ", nr2, "X", nc2)
+#takking inpur for first matrix
 mat_A = []
-
 for i in range(1, nr1+1):
     r1v = []
     print("enter elements of row", i,  "of 1st matrix: ")
@@ -25,7 +25,7 @@ for i in range(1, nr1+1):
 print("please check the matrix A entered by you: ")
 for rows in mat_A:
     print(rows)
-
+#taking input for  second matrix
 mat_B = []
 for i in range(1, nc2+1):
     c1v = []
